@@ -11,8 +11,8 @@ class BasicMovieRecommedation:
     rating based user-movie matrix and nearest neighbour
     """
 
-    def __init__(self, n_recomms:int, metric:str = 'cosine'):
-        self.n_neighbors:int = n_recomms + 1
+    def __init__(self, n_neighbors:int, metric:str = 'cosine'):
+        self.n_neighbors:int = n_neighbors + 1
         self.metric:str = metric
         self.algorithm:str = 'brute'
 
@@ -41,10 +41,10 @@ class BasicMovieRecommedation:
                                       algorithm=self.algorithm, metric=self.metric)
         self.model.fit(self.rating_matrix)
 
-    def get_recommendations(self, movie_id:int):
+    def get_recommendations(self, movie_id:int, n_recommendations:int):
         movie_vector = self.rating_matrix[self.movie_inv_id_maps[movie_id]].reshape(1, -1)
         distances, collected_neighbours = self.model.kneighbors(
-            X=movie_vector, n_neighbors=self.n_neighbors, return_distance=True)
+            X=movie_vector, n_neighbors=n_recommendations+1, return_distance=True)
 
         recomm_movie_ids = [i for i in map(
             lambda x: self.movie_id_maps[x], collected_neighbours[0])]
