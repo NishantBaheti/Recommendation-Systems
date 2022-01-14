@@ -1,0 +1,17 @@
+Sphinx==3.4.3
+sphinx-rtd-theme==0.5.2
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-bibtex==2.3.0
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+sphinxcontrib-svg2pdfconverter==1.1.1
+testpath==0.5.0
+tornado==6.1
+traitlets==5.0.5
+urllib3==1.26.6
+wcwidth==0.2.5
+webencodings==0.5.1
+sphinx-book-theme>=0.1.6
