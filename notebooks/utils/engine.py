@@ -68,8 +68,7 @@ class BasicMovieRecommedation:
         self.model.fit(self.rating_matrix)
 
     def get_recommendations(self, movie_id: int, n_recommendations: int) -> Tuple[np.ndarray, np.ndarray]:
-        """
-        Generate Recommendations.
+        """Generate Recommendations.
 
         Args:
             movie_id (int): Movie ID.
