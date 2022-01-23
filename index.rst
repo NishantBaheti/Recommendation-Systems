@@ -11,7 +11,7 @@ Welcome to The amateur's guide for Recommendation Systems's documentation!
    :caption: Contents:
 
    notebooks/intro
-   notebooks/Basic
+   notebooks/cf_item_item
 
 
 

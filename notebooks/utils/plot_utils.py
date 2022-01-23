@@ -15,6 +15,6 @@ def plot_recomendations(df: pd.DataFrame):
     sns.barplot(data=df, y='distances', x='title',
                 orient='v', hue='genres', ax=ax)
     ax.legend(bbox_to_anchor=(1, 1), loc='upper left')
-    plt.xticks(rotation=90)
+    plt.xticks(rotation=60)
     ax.grid()
     plt.show()
