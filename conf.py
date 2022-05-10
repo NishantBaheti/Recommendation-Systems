@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "The amateur's guide for Recommendation Systems"
+project = "The amateur's guide to Recommendation Systems"
 author = 'Nishant Baheti'
 
 html_show_copyright = False
