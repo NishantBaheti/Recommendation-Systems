@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def plot_recomendations(df: pd.DataFrame):
+def plot_recommendations(df: pd.DataFrame):
     """
     Bar plot of recommended movies and distances from given movie.
 
