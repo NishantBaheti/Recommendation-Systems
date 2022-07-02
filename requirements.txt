@@ -15,4 +15,4 @@ urllib3==1.26.6
 wcwidth==0.2.5
 webencodings==0.5.1
 nbsphinx>=0.8.6
-pydata-sphinx-theme
+sphinx-book-theme
