@@ -12,7 +12,7 @@ The amateur's guide to Recommendation Systems
 
    notebooks/intro
    notebooks/cf_item_item
-   notebooks/content_based_filtering
+   notebooks/basic_content_based
    
 .. toctree::
    :maxdepth: 2
