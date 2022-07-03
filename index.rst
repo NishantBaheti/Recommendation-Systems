@@ -11,8 +11,9 @@ The amateur's guide to Recommendation Systems
    :caption: Contents:
 
    notebooks/intro
-   notebooks/cf_item_item
    notebooks/basic_content_based
+   notebooks/als
+   notebooks/cf_item_item
    
 .. toctree::
    :maxdepth: 2
