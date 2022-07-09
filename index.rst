@@ -1,8 +1,3 @@
-.. The amateur's guide for Recommendation Systems documentation master file, created by
-   sphinx-quickstart on Sat Jan 15 02:30:48 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 The amateur's guide to Recommendation Systems
 ===================================================
 
@@ -12,6 +7,7 @@ The amateur's guide to Recommendation Systems
 
    notebooks/intro
    notebooks/basic_content_based
+   notebooks/svd
    notebooks/als
    notebooks/cf_item_item
    
