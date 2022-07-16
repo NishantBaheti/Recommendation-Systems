@@ -21,6 +21,7 @@ The amateur's guide to Recommendation Systems
    :name: Content Based
 
    notebooks/basic_content_based
+   notebooks/nn_content_based
 
 .. toctree::
    :maxdepth: 1
