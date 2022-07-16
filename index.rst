@@ -2,13 +2,13 @@ The amateur's guide to Recommendation Systems
 ===================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    notebooks/intro
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Algorithms
    :name: Algorithms
 
@@ -16,21 +16,21 @@ The amateur's guide to Recommendation Systems
    notebooks/als
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Content Based
    :name: Content Based
 
    notebooks/basic_content_based
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Collaborative Filtering
    :name: Collaborative Filtering
 
    notebooks/cf_item_item
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Additional Docs
    :name: Additional Docs
 
