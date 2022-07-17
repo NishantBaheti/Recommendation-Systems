@@ -1,5 +1,8 @@
-The amateur's guide to Recommendation Systems
-===================================================
+
+
+.. index:: HOME
+.. include:: ./README.rst
+
 
 .. toctree::
    :maxdepth: 1
